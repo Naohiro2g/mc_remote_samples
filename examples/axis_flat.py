@@ -5,15 +5,15 @@ import param_mc_remote as param
 from param_mc_remote import PLAYER_ORIGIN as PO
 from param_mc_remote import block
 
-# axis parameters
+# axis parameters for Minecraft
 AXIS_WIDTH = 40  # x, z: -40 .. 0 .. 40
 AXIS_TOP = 127
 AXIS_Y_V_ORG = 96  # y of virtual origin
 AXIS_BOTTOM = 63  # y: 63 .. 96 .. 127
 
 AXIS_BLOCK_X = block.DIAMOND_BLOCK
-AXIS_BLOCK_Y = block.SEA_LANTERN
-AXIS_BLOCK_Z = block.GOLD_BLOCK
+AXIS_BLOCK_Y = block.REDSTONE_BLOCK
+AXIS_BLOCK_Z = block.NETHERITE_BLOCK
 AXIS_BLOCK_TOP = block.GLOWSTONE
 
 
